@@ -6,7 +6,8 @@ let butt = document.getElementById("button");
 
 
 butt.onclick = function (event) {
-    event.preventDefault()
-    document.getElementById("name").textContent = personName.value
-    
+    event.preventDefault();
+    document.getElementById("name").textContent = personName.value;
+    document.getElementById("surname").textContent = personSurname.value;
+    document.getElementById("phone").textContent = personPhoneNumber.value;
 }
