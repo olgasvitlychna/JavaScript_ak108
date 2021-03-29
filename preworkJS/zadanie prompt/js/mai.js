@@ -1,5 +1,5 @@
 
-let number = prompt('Eter a number');
+let number = prompt('Enter a number');
 
 
 
