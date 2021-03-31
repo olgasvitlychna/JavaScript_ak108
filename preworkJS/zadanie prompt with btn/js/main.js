@@ -12,11 +12,11 @@ btn.onclick = function (elemen1, element2) {
         function enterNumber (param1, param2){
             let showFirstNumber = document.getElementById('pierwszaLiczba');
 
-            showFirstNumber.innerHTML = `Liczba 1 to: ${param1}`;
+            showFirstNumber.textContent = `Liczba 1 to: ${param1}`;
 
             let showSecondNumber = document.getElementById('drugaLiczba');
 
-            showSecondNumber.innerHTML = `Liczba 2 to: ${param2}`;
+            showSecondNumber.textContent = `Liczba 2 to: ${param2}`;
             }
     enterNumber(podajLiczbe, podajDrugaLiczbe);
     
