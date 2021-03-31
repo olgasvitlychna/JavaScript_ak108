@@ -4,7 +4,11 @@ let number = prompt('Enter a number');
 
 
 function enterNumber (param){
-    console.log(`Your number is ${param}`)
-}
 
-enterNumber(number)
+    if(typeof param == Number){
+        console.log(`Your number is ${param}`)
+    } else{
+    console.log('Only numbers!')
+}
+}
+enterNumber(number);
