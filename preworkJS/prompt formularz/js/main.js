@@ -1,6 +1,4 @@
 
-// let wprowadzNazwisko = prompt('Podaj swoje nazwisko');
-// let wprowadzEmail = prompt('Wpisz email');
 
 
 function getName () {
@@ -17,24 +15,26 @@ function getName () {
 }
 getName();
 
-function getSurname (param) {
-    if (param === ""){
+function getSurname () {
+    let wprowadzNazwisko = prompt('Podaj swoje nazwisko');
+    if (wprowadzNazwisko === ""){
         alert('bląd');
     }else{
         let nazwisko = document.getElementById('nazwisko');
-        nazwisko.textContent = param;
+        nazwisko.value = wprowadzNazwisko;
     }
 
 }
-getSurname(wprowadzNazwisko);
+getSurname();
 
-function getEmail (param) {
-    if (param === ""){
+function getEmail () {
+    let wprowadzEmail = prompt('Wpisz email');
+    if (wprowadzEmail === ""){
         alert('bląd');
     }else{
         let email = document.getElementById('email');
-        email.textContent = param;
+        email.value = wprowadzEmail;
     }
 
 }
-getEmail(wprowadzEmail)
+getEmail()
