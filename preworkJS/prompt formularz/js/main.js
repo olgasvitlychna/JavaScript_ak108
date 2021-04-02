@@ -3,11 +3,12 @@
 
 function getName () {
     let wprowadzImie = prompt('Podaj swoje imię');
+    let imie = document.getElementById('imie');
     if (wprowadzImie === ""){
-        alert('bląd');
         
+        imie.value = 'bląd';
     }else{
-        let imie = document.getElementById('imie');
+        
         imie.value = wprowadzImie;
         
     }
@@ -17,10 +18,10 @@ getName();
 
 function getSurname () {
     let wprowadzNazwisko = prompt('Podaj swoje nazwisko');
+    let nazwisko = document.getElementById('nazwisko');
     if (wprowadzNazwisko === ""){
-        alert('bląd');
+        nazwisko.value = 'bląd';
     }else{
-        let nazwisko = document.getElementById('nazwisko');
         nazwisko.value = wprowadzNazwisko;
     }
 
@@ -29,10 +30,10 @@ getSurname();
 
 function getEmail () {
     let wprowadzEmail = prompt('Wpisz email');
+    let email = document.getElementById('email');
     if (wprowadzEmail === ""){
-        alert('bląd');
+        email.value = 'bląd';
     }else{
-        let email = document.getElementById('email');
         email.value = wprowadzEmail;
     }
 
