@@ -1,0 +1,18 @@
+Warsztat – Obsługa formularza 'Imie i nazwisko'
+
+Stwórz plik index.html z pełną strukturą strony HTML5, a w nim formularz
+
+<form id="form" action="">
+    <label>Imię: <input type="text" name="fname" value="Krystian"></label>
+    <br /> 
+    <label>Nazwisko: <input type="text" name="lname" value="Dziopa"></label>
+    <br />
+    <input type="submit" value="Submit">
+</form>
+Napisz funkcję, która będzie obsługiwać zdarzenie submit formularza i podepnij ją do elementu formularza jako funkcję zwrotną (ang. callback) obsługującą to zdarzenie.
+
+Następnie podczas wysyłania formularza:
+
+Zablokuj jego domyślne działanie (aby formularz się NIE wysyłał)
+Pobierz wartości obydwu pól formularza do zmiennych (czyli z atrybutami name równymi fname i lname)
+Wyświetl pobrane wartości pól formularza w konsoli.
