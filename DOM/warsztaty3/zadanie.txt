@@ -1,0 +1,27 @@
+Stwórz plik index.html z pełną strukturą strony HTML5, a w nim formularz zawierający:
+
+pole tekstowe Imie i nazwisko
+pole tekstowe Adres e-mail
+checkbox Wszystkie zgody
+checkbox Zgoda marketingowa 1
+checkbox Zgoda marketingowa 2
+Stwórz funkcję validate(), która będzię uruchamiana przed wysłaniem formularza.
+
+Funkcja validate() ma sprawdzać:
+
+czy zostało wypełnione pole tekstowe Imie i nazwisko
+czy zostało wypełnione pole tekstowe Adres e-mail
+czy adres email zawiera znak @
+czy został zaznaczony checkbox ze Zgodą marketingową 1
+W przypadku, gdy któreś z powyższych wymagań nie zostało spełnione, skrypt ma informować internautę o tym jako lista z błędami do poprawy.
+
+Checkbox Wszystkie zgody po zaznaczeniu ma automatycznie zaznaczać pozostałe checkboxy (tj. Zgoda marketingowa 1 i Zgoda marketingowa 2) i wyłączać możliwość ich odznaczenia.
+
+Natomiast po odznaczeniu checkbox’a Wszystkie zgody pozostałe checkboxy (tj. Zgoda marketingowa 1 i Zgoda marketingowa 2) mają zostać także odznaczone i ma zostać włączona możliwość ich osobnego zaznaczania.
+
+Przykładowy wygląd od lewej:
+
+pustego formularza
+częściowo wypełnionego formularza z komunikatami walidacji
+Formularz Newsletter'a
+Formularz Newsletter'a z komunikatami

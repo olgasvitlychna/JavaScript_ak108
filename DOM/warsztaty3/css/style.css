@@ -1,0 +1,31 @@
+*{
+    margin: auto;
+}
+form{
+    background-color: orange;
+    
+    max-width: 300px;
+    margin: auto;
+    padding: 15px;
+}
+
+#errors{
+    color: orangered;
+}
+
+.input{
+    height: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+button{
+    
+    margin: 10px;
+    font-size: 13px;
+}
+button:hover{
+    background-color: greenyellow;
+    border: none;
+}
