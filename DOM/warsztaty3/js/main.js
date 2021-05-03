@@ -7,7 +7,7 @@ function validate (event){
 
     let name = document.getElementById('name');
     let email = document.getElementById('email');
-    let agree1 = document.getElementById('agree1');
+    let agree1 = document.getElementById('agree-1');
     let errors = document.getElementById('errors');
     
     errors.innerHTML = '';
@@ -43,8 +43,8 @@ function validate (event){
 }
 const allAgreeCheckBox = (event) =>{
     
-    let agree1 = document.getElementById('agree1');
-    let agree2 = document.getElementById('agree2');
+    let agree1 = document.getElementById('agree-1');
+    let agree2 = document.getElementById('agree-2');
 
     agree1.checked = event.target.checked;
     agree2.checked = event.target.checked;
